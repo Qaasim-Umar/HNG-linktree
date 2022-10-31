@@ -1,0 +1,13 @@
+.link{
+padding: 1rem;
+border-radius: .3rem;
+    width: 80%;
+    margin: .7rem auto;
+    text-align: center;
+    background-color: #EAECF0;
+}
+.link a{
+    color:  #101828;
+    text-decoration: none;
+
+}
