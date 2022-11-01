@@ -1,11 +1,11 @@
 import React from "react";
 import "./Link.css";
 
-const link = ({name}) => {
+const link = ({name,link, id}) => {
   return (
-    <div className="link">
+    <div>
       {" "}
-      <a href=""> {name} </a>{" "}
+      <a href={link} className='link' id={id}> {name} </a>{" "}
     </div>
   );
 };

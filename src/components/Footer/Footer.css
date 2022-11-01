@@ -18,3 +18,11 @@ height: 1.55rem;
     width:8.26rem;
     height: 2rem;
 }
+
+@media screen and (max-width:600px) {
+
+    .footer{
+        flex-direction: column;
+        
+    }
+}

@@ -1,13 +1,22 @@
-.link{
-padding: 1rem;
-border-radius: .3rem;
-    width: 80%;
-    margin: .7rem auto;
-    text-align: center;
-    background-color: #EAECF0;
-}
-.link a{
+ 
+div a{
     color:  #101828;
     text-decoration: none;
-
 }
+.link{
+    background-color: #EAECF0;
+    padding: 1rem;
+    height: 1rem;
+    display: block;
+    margin: .7rem auto;
+    width: 80%;
+    border-radius: .3rem;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .link{
+        width: 90%;
+    }
+}
+

@@ -4,9 +4,48 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
-.logo {
+#profile_img {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
+}
+
+#desktop{
+    position: absolute;
+    top: 3rem;
+    right: 12rem;
+}
+#mobile{
+    display:none;
+}
+
+#tooltip{
+position: absolute;
+right: 12.2rem;
+top: 3rem;
+z-index: 1;
+padding: 0 1.5rem 0 0;
+opacity: 0;
+}
+
+
+#tooltip:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width:600px) {
+#desktop{
+    display: none;
+}
+#mobile{
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+#tooltip{
+    display: none;
+}
 }
